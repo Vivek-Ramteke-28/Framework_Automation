@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up report and test is getting ready]]>
+    </line>
+    <line>
+      <![CDATA[Setting is Done-- Test Can be started]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start browser and getting application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser and application is up and running]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed and Report generated]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed and Report generated]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54793" started-at="2019-03-20T07:19:28Z" finished-at="2019-03-20T07:20:22Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="54793" started-at="2019-03-20T07:19:28Z" finished-at="2019-03-20T07:20:22Z">
+      <class name="com.learnautomation.testcases.LoginTestCRM">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@29ee9faa]" name="setUpSuite" is-config="true" duration-ms="1601" started-at="2019-03-20T12:49:26Z" finished-at="2019-03-20T12:49:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up report and test is getting ready]]>
+            </line>
+            <line>
+              <![CDATA[Setting is Done-- Test Can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@29ee9faa]" name="setUp" is-config="true" duration-ms="37503" started-at="2019-03-20T12:49:28Z" finished-at="2019-03-20T12:50:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start browser and getting application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser and application is up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginApp1()[pri:1, instance:com.learnautomation.testcases.LoginTestCRM@29ee9faa]" name="loginApp1" duration-ms="13154" started-at="2019-03-20T12:50:05Z" finished-at="2019-03-20T12:50:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp1 -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@29ee9faa]" name="tearDownMethod" is-config="true" duration-ms="2562" started-at="2019-03-20T12:50:18Z" finished-at="2019-03-20T12:50:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp1 status=SUCCESS method=LoginTestCRM.loginApp1()[pri:1, instance:com.learnautomation.testcases.LoginTestCRM@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed and Report generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="loginApp2()[pri:2, instance:com.learnautomation.testcases.LoginTestCRM@29ee9faa]" name="loginApp2" duration-ms="5" started-at="2019-03-20T12:50:21Z" finished-at="2019-03-20T12:50:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp2 -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@29ee9faa]" name="tearDownMethod" is-config="true" duration-ms="676" started-at="2019-03-20T12:50:21Z" finished-at="2019-03-20T12:50:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp2 status=SUCCESS method=LoginTestCRM.loginApp2()[pri:2, instance:com.learnautomation.testcases.LoginTestCRM@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed and Report generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@29ee9faa]" name="tearDown" is-config="true" duration-ms="794" started-at="2019-03-20T12:50:22Z" finished-at="2019-03-20T12:50:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learnautomation.testcases.LoginTestCRM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
