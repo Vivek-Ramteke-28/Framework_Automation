@@ -10,7 +10,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 public class BrowserFactory {
 
 	
-	
+	// Browser factory-- basic requirement
 	
 	public static WebDriver startapplication(WebDriver driver, String browserName, String appURL)
 	{
