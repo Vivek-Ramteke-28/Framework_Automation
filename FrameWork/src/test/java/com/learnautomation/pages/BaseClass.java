@@ -30,7 +30,7 @@ public class BaseClass {
 	public ExtentReports report;
 	public ExtentTest logger;
 	
-	
+	//Base Class- Author Vivek Ramteke
 	
 	
 	@BeforeSuite
